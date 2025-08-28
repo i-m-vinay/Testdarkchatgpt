@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I-Pro Solutions - IP Consulting & Business Setup Services in Mumbai</title>
+    <meta name="description" content="Leading IP consulting firm in Mumbai. Trademark Registration, Patent Services, Copyright Protection & Business Setup in India. Free Trademark Audit Available.">
+    <meta name="keywords" content="trademark registration, patent services, copyright protection, IP consulting, business setup India, Mumbai">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<div class='night-nebula'></div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand" onclick="showSection('home')">
+                <h2>I Pro Solutions</h2>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="javascript:void(0)" class="nav-link" onclick="showSection('home')">Home</a>
+                <a href="javascript:void(0)" class="nav-link" onclick="showSection('trademarks')">Trademarks</a>
+                <a href="javascript:void(0)" class="nav-link" onclick="showSection('copyrights')">Copyrights</a>
+                <a href="javascript:void(0)" class="nav-link" onclick="showSection('patents')">Patents</a>
+                <a href="javascript:void(0)" class="nav-link" onclick="showSection('global-trademark')">Global Trademark</a>
+                <a href="javascript:void(0)" class="nav-link" onclick="showSection('business-setup')">Business Setup India</a>
+                <a href="javascript:void(0)" class="nav-link" onclick="showSection('about')">About Us</a>
+                <a href="javascript:void(0)" class="nav-link" onclick="showSection('contact')">Contact</a>
+                <a href="javascript:void(0)" class="nav-link whatsapp-nav" onclick="openWhatsApp('Hi! I want to chat about your IP services.')">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+            <div class="nav-actions">
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="animated-background">
+                <div class="floating-element floating-element-1"></div>
+                <div class="floating-element floating-element-2"></div>
+                <div class="floating-element floating-element-3"></div>
+                <div class="floating-element floating-element-4"></div>
+                <div class="floating-element floating-element-5"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="audit-banner animate-bounce">
+                        <i class="fas fa-gift sparkle-icon"></i>
+                        <span>FREE TRADEMARK AUDIT OFFER - Limited Time!</span>
+                    </div>
+                    <h1 class="animate-text">
+                        <span>PROTECTING INNOVATION,</span>
+                        <span>EMPOWERING BUSINESSES</span>
+                    </h1>
+                    <h2 class="hero-main-title animate-fade-up">Protect Your Brand & Expand Your Business</h2>
+                    <p class="hero-subtitle animate-fade-up">Leading IP consulting firm in Mumbai with 2000+ successful trademark registrations since 2017</p>
+                    <div class="hero-buttons animate-fade-up">
+                        <button class="btn btn--primary glow-effect pulse-button" onclick="openWhatsApp('I want a free trademark audit for my business')">
+                            <i class="fab fa-whatsapp"></i> Get Free Audit
+                        </button>
+                        <button class="btn btn--outline glow-effect" onclick="showSection('services')">Explore Services</button>
+                    </div>
+                    <div class="hero-stats animate-stats">
+                        <div class="stat shimmer-card animate-counter" data-target="2000">
+                            <strong>0+</strong>
+                            <span>TM Registrations</span>
+                        </div>
+                        <div class="stat shimmer-card animate-counter" data-target="8">
+                            <strong>0+</strong>
+                            <span>Years Experience</span>
+                        </div>
+                        <div class="stat shimmer-card animate-counter" data-target="98">
+                            <strong>0%</strong>
+                            <span>Success Rate</span>
+                        </div>
+                        <div class="stat shimmer-card animate-counter" data-target="500">
+                            <strong>0+</strong>
+                            <span>Patents Filed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-preview">
+            <div class="container">
+                <h2>Our Core Services</h2>
+                <div class="services-grid">
+                    <div class="service-card glow-card" onclick="showSection('trademarks')">
+                        <div class="service-icon">
+                            <i class="fas fa-trademark"></i>
+                        </div>
+                        <h3>Trademark Services</h3>
+                        <p>Complete trademark registration and protection services with search, filing, and enforcement.</p>
+                        <ul>
+                            <li>Search & Filing</li>
+                            <li>Prosecution & Monitoring</li>
+                            <li>International TM</li>
+                        </ul>
+                        <button class="service-link glow-effect" onclick="event.stopPropagation(); showSection('trademarks')">Learn More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="service-card glow-card" onclick="showSection('patents')">
+                        <div class="service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Patent Services</h3>
+                        <p>Patent search, drafting, filing and prosecution services for your innovations.</p>
+                        <ul>
+                            <li>Search & Analysis</li>
+                            <li>Drafting & Filing</li>
+                            <li>Prosecution</li>
+                        </ul>
+                        <button class="service-link glow-effect" onclick="event.stopPropagation(); showSection('patents')">Learn More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="service-card glow-card" onclick="showSection('copyrights')">
+                        <div class="service-icon">
+                            <i class="fas fa-copyright"></i>
+                        </div>
+                        <h3>Copyright Services</h3>
+                        <p>Copyright registration and protection services for creative works and content.</p>
+                        <ul>
+                            <li>Search & Filing</li>
+                            <li>Registration</li>
+                            <li>Enforcement</li>
+                        </ul>
+                        <button class="service-link glow-effect" onclick="event.stopPropagation(); showSection('copyrights')">Learn More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="service-card glow-card" onclick="showSection('global-trademark')">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Global IP Services</h3>
+                        <p>International intellectual property protection through Madrid Protocol and direct filing.</p>
+                        <ul>
+                            <li>Madrid Protocol</li>
+                            <li>International Filing</li>
+                            <li>Multi-jurisdiction</li>
+                        </ul>
+                        <button class="service-link glow-effect" onclick="event.stopPropagation(); showSection('global-trademark')">Learn More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="service-card glow-card" onclick="showSection('business-setup')">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Business Setup India</h3>
+                        <p>Complete business setup and expansion services for domestic and international clients.</p>
+                        <ul>
+                            <li>Company Formation</li>
+                            <li>Compliance</li>
+                            <li>Market Entry</li>
+                        </ul>
+                        <button class="service-link glow-effect" onclick="event.stopPropagation(); showSection('business-setup')">Learn More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="service-card glow-card">
+                        <div class="service-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Legal Consultation</h3>
+                        <p>Expert legal advice and dispute resolution services for IP and business matters.</p>
+                        <ul>
+                            <li>IP Disputes</li>
+                            <li>Legal Advisory</li>
+                            <li>Litigation Support</li>
+                        </ul>
+                        <button class="service-link glow-effect" onclick="openWhatsApp('I need legal consultation for IP and business matters')">Consult Now <i class="fab fa-whatsapp"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Choose Us -->
+        <div class="why-choose-us">
+            <div class="container">
+                <h2>Why Choose I-Pro Solutions?</h2>
+                <div class="features-grid">
+                    <div class="feature glow-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Quality Excellence</h3>
+                        <p>Meticulous attention to detail and highest standards in all IP services and business setup processes.</p>
+                    </div>
+                    <div class="feature glow-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-rupee-sign"></i>
+                        </div>
+                        <h3>Competitive Pricing</h3>
+                        <p>Transparent, competitive pricing starting from ₹6,999 for trademark registration with no hidden costs.</p>
+                    </div>
+                    <div class="feature glow-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Trusted Partnership</h3>
+                        <p>2000+ successful registrations and trusted by businesses across India since 2017.</p>
+                    </div>
+                    <div class="feature glow-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>Service Excellence</h3>
+                        <p>Dedicated support throughout the process with regular updates and expert guidance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial shimmer-card">
+                        <div class="testimonial-content">
+                            <p>"Excellent service for trademark registration. Professional team, transparent pricing, and quick turnaround. Highly recommended for IP services."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Rajesh Sharma</strong>
+                            <span>Tech Startup Founder</span>
+                        </div>
+                    </div>
+                    <div class="testimonial shimmer-card">
+                        <div class="testimonial-content">
+                            <p>"I-Pro Solutions helped us set up our business in India seamlessly. Their expertise in compliance and market entry was invaluable."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Sarah Johnson</strong>
+                            <span>International Business</span>
+                        </div>
+                    </div>
+                    <div class="testimonial shimmer-card">
+                        <div class="testimonial-content">
+                            <p>"Professional copyright services with excellent support. They guided us through the entire process and delivered results on time."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>Priya Patel</strong>
+                            <span>Creative Agency Owner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>About I-Pro Solutions</h1>
+                <p>Leading IP consulting and business setup firm in Mumbai, established in 2017</p>
+            </div>
+
+            <div class="about-intro shimmer-card">
+                <h2>Who We Are</h2>
+                <p>I-Pro Solutions is a premier intellectual property consulting and business setup firm based in Mumbai, India. Since our establishment in 2017, we have successfully completed over 2000 trademark registrations and helped numerous businesses protect their innovations and expand their operations.</p>
+                <p>We specialize in comprehensive IP services including trademarks, patents, copyrights, and international IP protection, alongside complete business setup and expansion services for both domestic and international clients.</p>
+            </div>
+
+            <div class="founders-section">
+                <h2>Meet Our Founders</h2>
+                <div class="founders-grid">
+                    <div class="founder-card glow-card">
+                        <div class="founder-photo">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h3>Vinay Sharma</h3>
+                        <h4>Founder - Marketing</h4>
+                        <p>Expertise in marketing strategy and business development. Leads client acquisition and growth initiatives.</p>
+                    </div>
+                    <div class="founder-card glow-card">
+                        <div class="founder-photo">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h3>Tanu Rathore</h3>
+                        <h4>Founder - Operations</h4>
+                        <p>Specializes in operations management and client relations. Ensures smooth service delivery and client satisfaction.</p>
+                    </div>
+                    <div class="founder-card glow-card">
+                        <div class="founder-photo">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h3>Tejas Admane</h3>
+                        <h4>Founder - Legal & Finance</h4>
+                        <p>Handles legal affairs and financial management. Ensures compliance and legal accuracy in all services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-vision">
+                <div class="mission-vision-grid">
+                    <div class="mission shimmer-card">
+                        <h3>Our Mission</h3>
+                        <p>To provide comprehensive, reliable, and cost-effective intellectual property and business setup services that empower businesses to protect their innovations and expand their operations successfully.</p>
+                    </div>
+                    <div class="vision shimmer-card">
+                        <h3>Our Vision</h3>
+                        <p>To be the most trusted IP consulting and business setup firm in India, known for excellence, transparency, and client-centric approach in protecting innovations and enabling business growth.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="partnership">
+                <h2>Strategic Partnership</h2>
+                <p><strong>Partnership with Adnas Legal:</strong> We work in close collaboration with Adnas Legal to provide comprehensive legal support for all IP and business matters, ensuring our clients receive expert legal guidance throughout their journey.</p>
+            </div>
+
+            <div class="cta-section">
+                <h2>Ready to Protect Your Innovation?</h2>
+                <p>Get started with our expert IP and business setup services today</p>
+                <div class="cta-buttons">
+                    <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I want to discuss IP services and business setup')">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </button>
+                    <button class="btn btn--secondary glow-effect" onclick="showSection('contact')">Get Free Consultation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Our IP Services</h1>
+                <p>Comprehensive intellectual property protection and business services</p>
+            </div>
+
+            <div class="services-overview shimmer-card">
+                <p>At I-Pro Solutions, we offer a complete range of intellectual property services designed to protect your innovations, brands, and creative works. Our experienced team provides end-to-end support from initial consultation to registration and ongoing protection.</p>
+            </div>
+
+            <div class="services-detailed">
+                <div class="service-detail glow-card">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-trademark"></i>
+                    </div>
+                    <div class="service-detail-content">
+                        <h3>Trademark Services</h3>
+                        <p>Comprehensive trademark protection services including search, registration, prosecution, and enforcement. We handle all types of trademarks including wordmarks, logos, and device marks.</p>
+                        <button class="btn btn--outline glow-effect" onclick="showSection('trademarks')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="service-detail glow-card">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-copyright"></i>
+                    </div>
+                    <div class="service-detail-content">
+                        <h3>Copyright Services</h3>
+                        <p>Protect your creative works including literary, artistic, musical, and software creations. We provide copyright registration, licensing, and enforcement services.</p>
+                        <button class="btn btn--outline glow-effect" onclick="showSection('copyrights')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="service-detail glow-card">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="service-detail-content">
+                        <h3>Patent Services</h3>
+                        <p>Complete patent services including prior art search, patent drafting, filing, prosecution, and maintenance. Protect your inventions and innovations effectively.</p>
+                        <button class="btn btn--outline glow-effect" onclick="showSection('patents')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="service-detail glow-card">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="service-detail-content">
+                        <h3>Global IP Protection</h3>
+                        <p>International IP protection through Madrid Protocol and direct filing in multiple jurisdictions. Expand your brand protection globally.</p>
+                        <button class="btn btn--outline glow-effect" onclick="showSection('global-trademark')">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trademark Services Section -->
+    <section id="trademarks" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Trademark Services</h1>
+                <p>Complete trademark registration and protection services</p>
+            </div>
+
+            <div class="pricing-section">
+                <h2>Trademark Registration Packages</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card glow-card">
+                        <div class="pricing-header">
+                            <h3>Basic Application</h3>
+                            <div class="price">₹6,999</div>
+                            <div class="price-subtitle">Per Mark, Per Class</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Trademark Search & Consulting</li>
+                            <li><i class="fas fa-check"></i> Application Preparation</li>
+                            <li><i class="fas fa-check"></i> Application Filing</li>
+                            <li><i class="fas fa-check"></i> Your IP Partner till TM mark received</li>
+                        </ul>
+                        <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I want Basic Trademark Package for ₹6,999')">
+                            <i class="fab fa-whatsapp"></i> Choose Basic
+                        </button>
+                    </div>
+
+                    <div class="pricing-card glow-card">
+                        <div class="pricing-header">
+                            <h3>Smart Application</h3>
+                            <div class="price">₹12,499</div>
+                            <div class="price-subtitle">Per Mark, Per Class</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Trademark Search & Consulting</li>
+                            <li><i class="fas fa-check"></i> Application Preparation & Filing</li>
+                            <li><i class="fas fa-check"></i> Examination Reply</li>
+                            <li><i class="fas fa-check"></i> Objection Handling Up to 5 hearings</li>
+                            <li><i class="fas fa-info-circle"></i> Beyond 5 hearings ₹2000 per hearing</li>
+                        </ul>
+                        <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I want Smart Trademark Package for ₹12,499')">
+                            <i class="fab fa-whatsapp"></i> Choose Smart
+                        </button>
+                    </div>
+
+                    <div class="pricing-card glow-card">
+                        <div class="pricing-header">
+                            <h3>End to End</h3>
+                            <div class="price">₹14,499</div>
+                            <div class="price-subtitle">Per Mark, Per Class</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Trademark Search & Consulting</li>
+                            <li><i class="fas fa-check"></i> Application Preparation & Filing</li>
+                            <li><i class="fas fa-check"></i> Examination Reply</li>
+                            <li><i class="fas fa-check"></i> End to End Objection Handling</li>
+                            <li><i class="fas fa-check"></i> Your IP Partner till ® mark received</li>
+                        </ul>
+                        <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I want End to End Trademark Package for ₹14,499')">
+                            <i class="fab fa-whatsapp"></i> Choose End to End
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trademark-services-detail">
+                <h2>Specialized Trademark Services</h2>
+                <div class="services-accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Trademark Registration</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Complete trademark registration service including comprehensive search, application preparation, filing, and prosecution until registration.</p>
+                            <ul>
+                                <li>Comprehensive trademark search</li>
+                                <li>Application drafting and preparation</li>
+                                <li>Filing with Indian Trademark Office</li>
+                                <li>Examination response handling</li>
+                                <li>Publication and opposition monitoring</li>
+                            </ul>
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need trademark registration service')">
+                                <i class="fab fa-whatsapp"></i> Get Details on WhatsApp
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Trademark Objection</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Expert handling of trademark objections and examination reports to overcome rejections and secure registration.</p>
+                            <ul>
+                                <li>Analysis of examination report</li>
+                                <li>Preparation of comprehensive reply</li>
+                                <li>Legal arguments and precedent research</li>
+                                <li>Hearing representation if required</li>
+                            </ul>
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need help with trademark objection')">
+                                <i class="fab fa-whatsapp"></i> Get Help Now
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>International Trademark Registration</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Madrid Protocol filing and direct country filing for international trademark protection across multiple jurisdictions.</p>
+                            <ul>
+                                <li>Madrid Protocol applications</li>
+                                <li>Direct country filing</li>
+                                <li>Multi-jurisdiction strategy</li>
+                                <li>International prosecution</li>
+                            </ul>
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need international trademark services')">
+                                <i class="fab fa-whatsapp"></i> Discuss International Filing
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Trademark Renewal</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Timely renewal of trademark registrations to maintain continuous protection and prevent expiry.</p>
+                            <ul>
+                                <li>Renewal monitoring and alerts</li>
+                                <li>Renewal application filing</li>
+                                <li>Restoration if missed</li>
+                                <li>Ongoing protection maintenance</li>
+                            </ul>
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need trademark renewal service')">
+                                <i class="fab fa-whatsapp"></i> Renew Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright Services Section -->
+    <section id="copyrights" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Copyright Services</h1>
+                <p>Protect your creative works and intellectual property</p>
+            </div>
+
+            <div class="copyright-services">
+                <div class="service-category shimmer-card">
+                    <h2>Copyright Registration</h2>
+                    <p>Secure legal protection for your original creative works including literary, artistic, musical, and software creations.</p>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <i class="fas fa-book"></i>
+                            <span>Literary Works</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Artistic Works</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-music"></i>
+                            <span>Musical Works</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-code"></i>
+                            <span>Software & Code</span>
+                        </div>
+                    </div>
+                    <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need copyright registration service')">
+                        <i class="fab fa-whatsapp"></i> Register Copyright
+                    </button>
+                </div>
+
+                <div class="service-category shimmer-card">
+                    <h2>Copyright Enforcement & Litigation</h2>
+                    <p>Protect your rights against infringement with our comprehensive enforcement and litigation support services.</p>
+                    <ul>
+                        <li>Infringement analysis and assessment</li>
+                        <li>Cease and desist notices</li>
+                        <li>DMCA takedown services</li>
+                        <li>Litigation support and representation</li>
+                    </ul>
+                    <button class="btn btn--outline glow-effect" onclick="openWhatsApp('I need copyright enforcement help')">
+                        <i class="fab fa-whatsapp"></i> Get Enforcement Help
+                    </button>
+                </div>
+
+                <div class="service-category shimmer-card">
+                    <h2>Licensing & Assignment</h2>
+                    <p>Monetize your creative works through strategic licensing agreements and assignment transactions.</p>
+                    <ul>
+                        <li>License agreement drafting</li>
+                        <li>Assignment documentation</li>
+                        <li>Rights valuation</li>
+                        <li>Contract negotiation support</li>
+                    </ul>
+                    <button class="btn btn--outline glow-effect" onclick="openWhatsApp('I need copyright licensing help')">
+                        <i class="fab fa-whatsapp"></i> Discuss Licensing
+                    </button>
+                </div>
+
+                <div class="service-category shimmer-card">
+                    <h2>International Copyright Protection</h2>
+                    <p>Extend your copyright protection globally through international treaties and direct registration.</p>
+                    <ul>
+                        <li>Berne Convention protection</li>
+                        <li>Multi-country registration</li>
+                        <li>International enforcement</li>
+                        <li>Cross-border litigation support</li>
+                    </ul>
+                    <button class="btn btn--outline glow-effect" onclick="openWhatsApp('I need international copyright protection')">
+                        <i class="fab fa-whatsapp"></i> Go Global
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patent Services Section -->
+    <section id="patents" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Patent Services</h1>
+                <p>Comprehensive patent protection for your innovations</p>
+            </div>
+
+            <div class="patent-services">
+                <div class="service-category shimmer-card">
+                    <h2>Patent Search & Analysis</h2>
+                    <p>Thorough prior art search and patentability analysis to assess the novelty and potential of your invention.</p>
+                    <div class="service-benefits">
+                        <div class="benefit">
+                            <i class="fas fa-search"></i>
+                            <div>
+                                <h4>Comprehensive Search</h4>
+                                <p>Global database search across patents, publications, and technical literature</p>
+                            </div>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>Patentability Analysis</h4>
+                                <p>Expert assessment of novelty, inventive step, and industrial applicability</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need patent search service')">
+                        <i class="fab fa-whatsapp"></i> Get Patent Search
+                    </button>
+                </div>
+
+                <div class="service-category shimmer-card">
+                    <h2>Patent Drafting & Filing</h2>
+                    <p>Professional patent application drafting and filing services to secure maximum protection for your invention.</p>
+                    <ul>
+                        <li>Technical specification drafting</li>
+                        <li>Claims preparation and optimization</li>
+                        <li>Drawings and diagrams</li>
+                        <li>Application filing and prosecution</li>
+                    </ul>
+                    <button class="btn btn--outline glow-effect" onclick="openWhatsApp('I need patent drafting service')">
+                        <i class="fab fa-whatsapp"></i> Start Patent Application
+                    </button>
+                </div>
+
+                <div class="service-category shimmer-card">
+                    <h2>Patent Prosecution</h2>
+                    <p>Expert handling of patent examination and prosecution to overcome objections and secure grant.</p>
+                    <ul>
+                        <li>Examination response preparation</li>
+                        <li>Technical and legal arguments</li>
+                        <li>Claim amendments and optimization</li>
+                        <li>Hearing representation</li>
+                    </ul>
+                    <button class="btn btn--outline glow-effect" onclick="openWhatsApp('I need patent prosecution help')">
+                        <i class="fab fa-whatsapp"></i> Get Prosecution Help
+                    </button>
+                </div>
+
+                <div class="service-category shimmer-card">
+                    <h2>International Patent Filing</h2>
+                    <p>PCT and direct country filing for international patent protection across multiple jurisdictions.</p>
+                    <ul>
+                        <li>PCT application filing</li>
+                        <li>National phase entry</li>
+                        <li>Direct country applications</li>
+                        <li>International prosecution strategy</li>
+                    </ul>
+                    <button class="btn btn--outline glow-effect" onclick="openWhatsApp('I need international patent filing')">
+                        <i class="fab fa-whatsapp"></i> File Internationally
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Trademark Section -->
+    <section id="global-trademark" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Global Trademark Registration</h1>
+                <p>Expand your brand protection worldwide</p>
+            </div>
+
+            <div class="global-benefits">
+                <h2>Benefits of International Trademark Protection</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card glow-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Global Brand Protection</h3>
+                        <p>Protect your brand across multiple countries and prevent unauthorized use</p>
+                    </div>
+                    <div class="benefit-card glow-card">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                        <h3>Market Expansion</h3>
+                        <p>Secure trademark rights before entering new international markets</p>
+                    </div>
+                    <div class="benefit-card glow-card">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h3>Cost Effective</h3>
+                        <p>Madrid Protocol offers streamlined and cost-effective international filing</p>
+                    </div>
+                    <div class="benefit-card glow-card">
+                        <i class="fas fa-gavel"></i>
+                        <h3>Legal Enforcement</h3>
+                        <p>Strong legal foundation for enforcing rights against infringers globally</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="madrid-protocol shimmer-card">
+                <h2>Madrid Protocol System</h2>
+                <div class="madrid-info">
+                    <div class="madrid-content">
+                        <h3>What is Madrid Protocol?</h3>
+                        <p>The Madrid Protocol is an international treaty that allows trademark owners to seek protection in multiple countries through a single application filed with their home trademark office.</p>
+                        
+                        <h4>Key Advantages:</h4>
+                        <ul>
+                            <li>Single application for multiple countries</li>
+                            <li>Centralized management and renewals</li>
+                            <li>Cost-effective compared to direct filing</li>
+                            <li>Streamlined prosecution process</li>
+                        </ul>
+
+                        <h4>Countries Covered (100+ Countries):</h4>
+                        <div class="countries-list">
+                            <span>USA</span>
+                            <span>UK</span>
+                            <span>European Union</span>
+                            <span>China</span>
+                            <span>Japan</span>
+                            <span>Australia</span>
+                            <span>Canada</span>
+                            <span>Singapore</span>
+                            <span>And many more...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="global-process">
+                <h2>International Filing Process</h2>
+                <div class="process-steps">
+                    <div class="step glow-card">
+                        <div class="step-number">1</div>
+                        <h3>Consultation & Strategy</h3>
+                        <p>Discuss your international trademark needs and develop a filing strategy</p>
+                    </div>
+                    <div class="step glow-card">
+                        <div class="step-number">2</div>
+                        <h3>Application Preparation</h3>
+                        <p>Prepare Madrid Protocol application or direct country applications</p>
+                    </div>
+                    <div class="step glow-card">
+                        <div class="step-number">3</div>
+                        <h3>Filing & Prosecution</h3>
+                        <p>File applications and handle prosecution in designated countries</p>
+                    </div>
+                    <div class="step glow-card">
+                        <div class="step-number">4</div>
+                        <h3>Registration & Maintenance</h3>
+                        <p>Secure registrations and manage ongoing renewals and maintenance</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="global-cta">
+                <h2>Ready to Go Global?</h2>
+                <p>Protect your brand internationally with our expert global trademark services</p>
+                <div class="cta-buttons">
+                    <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I want to register my trademark internationally')">
+                        <i class="fab fa-whatsapp"></i> Discuss Global Filing
+                    </button>
+                    <button class="btn btn--secondary glow-effect" onclick="showSection('contact')">Get Free Consultation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Setup India Section -->
+    <section id="business-setup" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Business Setup & Expansion in India</h1>
+                <p>Complete business setup and market entry services for domestic and international clients</p>
+            </div>
+
+            <div class="business-intro shimmer-card">
+                <p>India presents tremendous opportunities for business growth and expansion. With our expert guidance, navigate the complexities of Indian business setup, compliance requirements, and market entry strategies to establish a successful presence in one of the world's fastest-growing economies.</p>
+            </div>
+
+            <div class="business-categories">
+                <div class="category-accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2>Strategic Market Entry Models</h2>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="entry-models">
+                                <div class="model">
+                                    <h3>Wholly Owned Subsidiaries</h3>
+                                    <p>Full control with 100% ownership - Ideal for long-term commitment and complete operational control</p>
+                                    <ul>
+                                        <li>Complete ownership and control</li>
+                                        <li>Maximum operational flexibility</li>
+                                        <li>Full profit retention</li>
+                                        <li>FDI compliance required</li>
+                                    </ul>
+                                </div>
+                                <div class="model">
+                                    <h3>Joint Ventures</h3>
+                                    <p>Strategic partnerships with local expertise - Combine international capability with local market knowledge</p>
+                                    <ul>
+                                        <li>Local market expertise</li>
+                                        <li>Shared investment and risk</li>
+                                        <li>Faster market entry</li>
+                                        <li>Regulatory advantage</li>
+                                    </ul>
+                                </div>
+                                <div class="model">
+                                    <h3>Licensing Agreements</h3>
+                                    <p>Expand without direct investment - License your IP and technology to Indian partners</p>
+                                </div>
+                                <div class="model">
+                                    <h3>Franchising Models</h3>
+                                    <p>Scalable business expansion - Proven business model with local franchise partners</p>
+                                </div>
+                            </div>
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I want to discuss market entry options')">
+                                <i class="fab fa-whatsapp"></i> Discuss Entry Strategy
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2>Incorporation & Taxation</h2>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="taxation-info">
+                                <div class="tax-rates">
+                                    <h3>Corporate Tax Rates</h3>
+                                    <div class="tax-grid">
+                                        <div class="tax-item">
+                                            <h4>Domestic Companies</h4>
+                                            <div class="rate">22%</div>
+                                            <p>Standard corporate tax rate for Indian companies</p>
+                                        </div>
+                                        <div class="tax-item">
+                                            <h4>New Manufacturing</h4>
+                                            <div class="rate">15%</div>
+                                            <p>Reduced rate for new manufacturing companies</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="compliance-areas">
+                                    <h3>Key Compliance Areas</h3>
+                                    <ul>
+                                        <li><strong>FEMA Compliance:</strong> Foreign Exchange Management Act requirements</li>
+                                        <li><strong>FDI Regulations:</strong> Foreign Direct Investment approvals and compliance</li>
+                                        <li><strong>SEZ Benefits:</strong> Special Economic Zone tax exemptions and benefits</li>
+                                        <li><strong>GST Registration:</strong> Goods and Services Tax compliance</li>
+                                        <li><strong>Labor Laws:</strong> Employment and labor compliance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need help with incorporation and tax planning')">
+                                <i class="fab fa-whatsapp"></i> Get Tax Planning Help
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2>Import Compliance & Documentation</h2>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="compliance-areas">
+                                <h3>Import Compliance Requirements</h3>
+                                <div class="compliance-grid">
+                                    <div class="compliance-item">
+                                        <h4>Customs Regulations</h4>
+                                        <ul>
+                                            <li>Import duty calculations</li>
+                                            <li>Customs clearance procedures</li>
+                                            <li>Valuation and classification</li>
+                                            <li>Special import schemes</li>
+                                        </ul>
+                                    </div>
+                                    <div class="compliance-item">
+                                        <h4>GST on Imports</h4>
+                                        <ul>
+                                            <li>IGST calculations and payment</li>
+                                            <li>Input tax credit optimization</li>
+                                            <li>GST registration requirements</li>
+                                            <li>Reverse charge mechanism</li>
+                                        </ul>
+                                    </div>
+                                    <div class="compliance-item">
+                                        <h4>Documentation</h4>
+                                        <ul>
+                                            <li>Import licenses and permits</li>
+                                            <li>Bills of entry and shipping documents</li>
+                                            <li>Quality certifications</li>
+                                            <li>Foreign exchange documentation</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need help with import compliance')">
+                                <i class="fab fa-whatsapp"></i> Get Compliance Help
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2>Sector-Specific Regulations</h2>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="sectors">
+                                <div class="sector">
+                                    <h3>Manufacturing Sector</h3>
+                                    <p><strong>Make in India incentives:</strong> Government support for manufacturing setup</p>
+                                    <ul>
+                                        <li>Factory licenses and clearances</li>
+                                        <li>Environmental clearances</li>
+                                        <li>Labor compliance</li>
+                                        <li>Quality certifications</li>
+                                    </ul>
+                                </div>
+                                <div class="sector">
+                                    <h3>E-commerce Sector</h3>
+                                    <p><strong>Market Size:</strong> $200B by 2026 - Massive growth opportunity</p>
+                                    <ul>
+                                        <li>FDI policy compliance</li>
+                                        <li>Marketplace vs inventory models</li>
+                                        <li>Digital taxation</li>
+                                        <li>Consumer protection compliance</li>
+                                    </ul>
+                                </div>
+                                <div class="sector">
+                                    <h3>Technology Sector</h3>
+                                    <p>IT and software services with favorable policies</p>
+                                    <ul>
+                                        <li>SEZ and STP benefits</li>
+                                        <li>IP protection strategies</li>
+                                        <li>Data localization requirements</li>
+                                        <li>Export promotion schemes</li>
+                                    </ul>
+                                </div>
+                                <div class="sector">
+                                    <h3>Financial Services</h3>
+                                    <p>Banking, insurance, and fintech regulations</p>
+                                    <ul>
+                                        <li>RBI approvals and compliance</li>
+                                        <li>NBFC registration</li>
+                                        <li>Fintech regulations</li>
+                                        <li>Capital adequacy requirements</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need sector specific guidance')">
+                                <i class="fab fa-whatsapp"></i> Get Sector Guidance
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2>E-commerce & Logistics Infrastructure</h2>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="infrastructure-info">
+                                <div class="market-stats">
+                                    <h3>Market Opportunity</h3>
+                                    <div class="stat-grid">
+                                        <div class="stat-item">
+                                            <div class="stat-value">$200B</div>
+                                            <div class="stat-label">E-commerce Market by 2026</div>
+                                        </div>
+                                        <div class="stat-item">
+                                            <div class="stat-value">750M+</div>
+                                            <div class="stat-label">Internet Users</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="logistics-details">
+                                    <h3>Logistics Infrastructure</h3>
+                                    <ul>
+                                        <li><strong>Warehousing Solutions:</strong> Modern warehouse facilities and fulfillment centers</li>
+                                        <li><strong>Last Mile Delivery:</strong> Extensive delivery networks covering urban and rural areas</li>
+                                        <li><strong>Technology Integration:</strong> Advanced logistics management systems</li>
+                                        <li><strong>Government Initiatives:</strong> PM Gati Shakti for logistics infrastructure development</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I want to setup e-commerce business in India')">
+                                <i class="fab fa-whatsapp"></i> Setup E-commerce Business
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="business-cta">
+                <h2>Ready to Start Your Business in India?</h2>
+                <p>Get comprehensive support for business setup, compliance, and market entry</p>
+                <div class="cta-buttons">
+                    <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I want to setup business in India')">
+                        <i class="fab fa-whatsapp"></i> Start Business Setup
+                    </button>
+                    <button class="btn btn--secondary glow-effect" onclick="showSection('contact')">Get Free Consultation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Contact Us</h1>
+                <p>Get in touch for expert IP and business consulting services</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form-section shimmer-card">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="service" class="form-label">Service Interested In</label>
+                                <select id="service" name="service" class="form-control">
+                                    <option value="">Select a service</option>
+                                    <option value="trademark">Trademark Registration</option>
+                                    <option value="patent">Patent Services</option>
+                                    <option value="copyright">Copyright Registration</option>
+                                    <option value="global-ip">Global IP Protection</option>
+                                    <option value="business-setup">Business Setup India</option>
+                                    <option value="consultation">General Consultation</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required placeholder="Please describe your requirements..."></textarea>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn--primary glow-effect">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                            <button type="button" class="btn btn--secondary glow-effect" onclick="openWhatsApp('Hi, I want to discuss my requirements')">
+                                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact-info-section shimmer-card">
+                    <h2>Get in Touch</h2>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Office Address</h3>
+                                <p>102, Ahmed Manor<br>Mazgaon, Mumbai - 10<br>Maharashtra, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:iprosolutionsmumbai@gmail.com">iprosolutionsmumbai@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Call Us</h3>
+                                <p><a href="tel:+919324090425">+91 93240 90425</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>WhatsApp</h3>
+                                <p><button class="whatsapp-link glow-effect" onclick="openWhatsApp('Hi, I want to get in touch')">+91 93240 90425</button></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-hours">
+                        <h3>Business Hours</h3>
+                        <div class="hours">
+                            <div class="hour-item">
+                                <span>Monday - Friday</span>
+                                <span>9:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="hour-item">
+                                <span>Saturday</span>
+                                <span>10:00 AM - 4:00 PM</span>
+                            </div>
+                            <div class="hour-item">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <i class="fas fa-map"></i>
+                            <p>Interactive Map Coming Soon</p>
+                            <a href="https://maps.google.com/?q=Mazgaon,Mumbai" target="_blank" class="btn btn--outline btn--sm glow-effect">
+                                <i class="fas fa-external-link-alt"></i> View on Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Track Application Section -->
+    <section id="track" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Track Your Application</h1>
+                <p>Monitor the status of your trademark, patent, or copyright applications</p>
+            </div>
+
+            <div class="track-content">
+                <div class="track-instructions shimmer-card">
+                    <h2>How to Track Your Application</h2>
+                    <div class="instruction-steps">
+                        <div class="step">
+                            <div class="step-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="step-content">
+                                <h3>Find Your Application Number</h3>
+                                <p>Locate your application number from the filing receipt or confirmation email we sent you.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                            <div class="step-content">
+                                <h3>Visit Official Portal</h3>
+                                <p>Click the link below to visit the official government tracking portal for your application type.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <i class="fas fa-clipboard-list"></i>
+                            </div>
+                            <div class="step-content">
+                                <h3>Enter Application Details</h3>
+                                <p>Enter your application number and other required details to view the current status.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tracking-portals">
+                    <h2>Official Tracking Portals</h2>
+                    <div class="portals-grid">
+                        <div class="portal-card glow-card">
+                            <div class="portal-icon">
+                                <i class="fas fa-trademark"></i>
+                            </div>
+                            <h3>Trademark Applications</h3>
+                            <p>Track your trademark application status on the official Indian Trademark Office portal.</p>
+                            <a href="https://ipindiaservices.gov.in/publicsearch" target="_blank" class="btn btn--primary glow-effect">
+                                <i class="fas fa-external-link-alt"></i> Track Trademark
+                            </a>
+                        </div>
+
+                        <div class="portal-card glow-card">
+                            <div class="portal-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h3>Patent Applications</h3>
+                            <p>Check your patent application status on the official Patent Office portal.</p>
+                            <a href="https://ipindiaservices.gov.in/publicsearch" target="_blank" class="btn btn--primary glow-effect">
+                                <i class="fas fa-external-link-alt"></i> Track Patent
+                            </a>
+                        </div>
+
+                        <div class="portal-card glow-card">
+                            <div class="portal-icon">
+                                <i class="fas fa-copyright"></i>
+                            </div>
+                            <h3>Copyright Applications</h3>
+                            <p>Monitor your copyright registration status on the official Copyright Office portal.</p>
+                            <a href="https://copyright.gov.in/frmSearchCopyright.aspx" target="_blank" class="btn btn--primary glow-effect">
+                                <i class="fas fa-external-link-alt"></i> Track Copyright
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="track-help">
+                    <div class="help-content">
+                        <h2>Need Help Tracking?</h2>
+                        <p>If you're having trouble finding your application number or understanding the status, our team is here to help you.</p>
+                        <div class="help-options">
+                            <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I need help tracking my application')">
+                                <i class="fab fa-whatsapp"></i> Get Help on WhatsApp
+                            </button>
+                            <a href="mailto:iprosolutionsmumbai@gmail.com?subject=Help with Application Tracking" class="btn btn--outline glow-effect">
+                                <i class="fas fa-envelope"></i> Email Support
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="track-faq shimmer-card">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFAQ(this)">
+                                <h3>How long does trademark registration take?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Trademark registration typically takes 12-18 months from filing to registration, depending on examination and objection handling requirements.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFAQ(this)">
+                                <h3>What if my application receives an objection?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We handle objections as part of our service packages. Our legal team will prepare and file the appropriate response to overcome the objection.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFAQ(this)">
+                                <h3>Can I check the status myself?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes, you can track your application status anytime using the official government portals linked above. We also provide regular updates on your application progress.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <h3>I-Pro Solutions</h3>
+                        <p class="footer-tagline">PROTECTING INNOVATION, EMPOWERING BUSINESSES</p>
+                        <p>Leading IP consulting and business setup firm in Mumbai with 2000+ successful registrations since 2017.</p>
+                    </div>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>102, Ahmed Manor, Mazgaon, Mumbai -10</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>iprosolutionsmumbai@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 93240 90425</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><button class="footer-link glow-effect" onclick="showSection('trademarks')">Trademark Registration</button></li>
+                        <li><button class="footer-link glow-effect" onclick="showSection('patents')">Patent Services</button></li>
+                        <li><button class="footer-link glow-effect" onclick="showSection('copyrights')">Copyright Registration</button></li>
+                        <li><button class="footer-link glow-effect" onclick="showSection('global-trademark')">Global IP Protection</button></li>
+                        <li><button class="footer-link glow-effect" onclick="showSection('business-setup')">Business Setup India</button></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><button class="footer-link glow-effect" onclick="showSection('about')">About Us</button></li>
+                        <li><button class="footer-link glow-effect" onclick="showSection('contact')">Contact Us</button></li>
+                        <li><button class="footer-link glow-effect" onclick="showSection('track')">Track Application</button></li>
+                        <li><button class="footer-link glow-effect" onclick="openWhatsApp('I want a free trademark audit')">Free Trademark Audit</button></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="footer-cta">
+                        <button class="btn btn--primary glow-effect" onclick="openWhatsApp('I want a free trademark audit')">
+                            <i class="fab fa-whatsapp"></i> Free Trademark Audit
+                        </button>
+                        <button class="btn btn--outline btn--sm glow-effect" onclick="openWhatsApp('Hi, I want to chat')">
+                            <i class="fab fa-whatsapp"></i> Chat Now
+                        </button>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="glow-effect"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank" class="glow-effect"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank" class="glow-effect"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:iprosolutionsmumbai@gmail.com" class="glow-effect"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 I-Pro Solutions. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="#privacy" class="glow-effect">Privacy Policy</a>
+                        <a href="#terms" class="glow-effect">Terms of Service</a>
+                        <a href="#disclaimer" class="glow-effect">Legal Disclaimer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+<footer class="footer">
+    <div class="container">
+        <p>Contact us: <a href="mailto:help@iprosolutions.co.in">help@iprosolutions.co.in</a></p>
+    </div>
+</footer>
+</body>
+
+</html>
